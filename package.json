@@ -1,0 +1,61 @@
+{
+  "name": "cf-services-connector",
+  "version": "0.2.5",
+  "description": "A module that connects you to the cloud foundry services API via a custom broker",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script test/"
+  },
+  "keywords": [
+    "cloud-foundry",
+    "cloud",
+    "foundry",
+    "cf",
+    "cf-services",
+    "services",
+    "broker"
+  ],
+  "author": {
+    "name": "Jamie Paton",
+    "email": "jamiep@activestate.com"
+  },
+  "license": "Apache License, Version 2.0",
+  "dependencies": {
+    "restify": "^2.6.0",
+    "logule": "^2.0.0",
+    "level": "*",
+    "semver": "^2.2.1",
+    "async": "^0.6.2",
+    "levelup": "^0.18.2"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "mocha": "~1.13.0",
+    "supertest": ""
+  },
+  "_id": "cf-services-connector@0.2.5",
+  "_shasum": "fe9dc1e3558540facaf52e3033f1941205e85ca8",
+  "_from": "cf-services-connector@0.2.5",
+  "_npmVersion": "1.4.9",
+  "_npmUser": {
+    "name": "activestate",
+    "email": "support@activestate.com"
+  },
+  "maintainers": [
+    {
+      "name": "jamiep",
+      "email": "jamie.paton@googlemail.com"
+    },
+    {
+      "name": "activestate",
+      "email": "support@activestate.com"
+    }
+  ],
+  "dist": {
+    "shasum": "fe9dc1e3558540facaf52e3033f1941205e85ca8",
+    "tarball": "http://registry.npmjs.org/cf-services-connector/-/cf-services-connector-0.2.5.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/cf-services-connector/-/cf-services-connector-0.2.5.tgz",
+  "readme": "ERROR: No README data found!"
+}
